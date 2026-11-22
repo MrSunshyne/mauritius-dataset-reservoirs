@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/MrSunshyne/mauritius-dataset-reservoirs/issues"
   },
-  "homepage": "https://mrsunshyne.github.io/mauritius-reservoirs/",
+  "homepage": "https://reservoirs.ramgolam.com/",
   "engines": {
     "node": ">=24"
   },

@@ -4,7 +4,7 @@ How full the seven main reservoirs of Mauritius are, as JSON. Each entry is a bu
 
 The data goes back to January 2024. A GitHub Action looks for new bulletins at 07:00 and 15:00 UTC every day.
 
-The website built on this data is [mrsunshyne.github.io/mauritius-reservoirs](https://mrsunshyne.github.io/mauritius-reservoirs/).
+The website built on this data is [reservoirs.ramgolam.com](https://reservoirs.ramgolam.com/).
 
 ## Where the numbers come from
 
