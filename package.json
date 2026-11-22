@@ -1,0 +1,24 @@
+{
+  "name": "mauritius-dataset-reservoirs",
+  "version": "1.0.0",
+  "description": "Mauritius reservoir fill levels from Water Resources Commission bulletins, as JSON",
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch.mjs",
+    "backfill": "node fetch.mjs --since 2024-01-01"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSunshyne/mauritius-dataset-reservoirs.git"
+  },
+  "author": "Sandeep Ramgolam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrSunshyne/mauritius-dataset-reservoirs/issues"
+  },
+  "homepage": "https://mrsunshyne.github.io/mauritius-reservoirs/",
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@12.21.0"
+}
