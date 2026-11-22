@@ -12,9 +12,9 @@ The WRC (Ministry of Energy and Public Utilities) measures the reservoirs, but i
 
 | Source | How it is read | Backfilled from |
 |---|---|---|
-| [ION News](https://ionnews.mu) | WordPress REST API, article text | 2024 |
+| [ION News](https://ionnews.mu) | WordPress.com REST API (the site's own domain blocks GitHub's runners), article text | 2024 |
 | [Le Mauricien](https://www.lemauricien.com) | WordPress REST API to list articles, then the article page | 2024 |
-| [News Moris](https://newsmoris.com) | WordPress REST API, article text (often an English version of a French article) | 2024 |
+| [News Moris](https://newsmoris.com) | WordPress REST API, article text (often an English version of a French article). Its firewall blocks GitHub's runners, so new articles are only picked up by local runs | 2024 |
 | [Defimedia](https://defimedia.info) | RSS feed of the latest ~50 articles, then the article page | new articles only |
 | [L'Express](https://lexpress.mu) | added by hand (the site blocks scripts) | one bulletin |
 
