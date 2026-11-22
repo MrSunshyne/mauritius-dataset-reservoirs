@@ -20,7 +20,9 @@ const USER_AGENT = 'mauritius-dataset-reservoirs (+https://github.com/MrSunshyne
 const SOURCES = [
   {
     name: 'ION News',
-    api: 'https://ionnews.mu/wp-json/wp/v2/posts',
+    // ionnews.mu is hosted on WordPress.com. Its own domain sits behind Cloudflare,
+    // which refuses GitHub Actions runners; the WordPress.com API serves the same posts.
+    api: 'https://public-api.wordpress.com/wp/v2/sites/ionnews.mu/posts',
     searches: ['réservoirs', 'remplissage', 'Mare aux Vacoas'],
     body: 'api',
     required: true,
