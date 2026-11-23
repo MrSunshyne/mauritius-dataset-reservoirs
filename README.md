@@ -2,7 +2,7 @@
 
 How full the seven main reservoirs of Mauritius are, as JSON. Each entry is a bulletin from the Water Resources Commission (WRC), with the fill level of each reservoir and of all seven together, often the same date last year and the long-term average, and the articles it was taken from.
 
-The data goes back to January 2024. A GitHub Action looks for new bulletins at 07:00 and 15:00 UTC every day.
+The data goes back to January 2024. A GitHub Action looks for new bulletins at 07:00 and 15:00 UTC every day. GitHub's own schedule fires hours late or not at all, so a small Cloudflare Worker (`trigger/`) starts the workflow at those times instead, with a token that can only run this repository's workflows.
 
 The website built on this data is [reservoirs.ramgolam.com](https://reservoirs.ramgolam.com/).
 
