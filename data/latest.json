@@ -1,8 +1,9 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-23",
   "total": {
-    "percent": 46.3,
-    "as_of": "2026-11-21"
+    "percent": 46.1,
+    "volume_mm3": 42.96,
+    "as_of": "2026-11-23"
   },
   "reservoirs": [
     {
@@ -19,9 +20,9 @@
       "osm": "https://www.openstreetmap.org/way/22882588",
       "percent": 31.9,
       "volume_mm3": 8.26,
-      "last_year_percent": null,
+      "last_year_percent": 72,
       "average_percent": null,
-      "as_of": "2026-11-21"
+      "as_of": "2026-11-23"
     },
     {
       "id": "midlands",
@@ -53,11 +54,11 @@
       "notes": "Built 2012–2017, fed mainly by River Terre Rouge and River Cascade. Supplies Port Louis and the lower Plaines Wilhems (Quatre Bornes, Rose Hill, Stanley, Beau Bassin, Coromandel).",
       "source": "https://publicutilities.govmu.org/Pages/Water%20Sector/WRU.aspx",
       "osm": "https://www.openstreetmap.org/way/507755283",
-      "percent": 48.2,
-      "volume_mm3": 7.12,
-      "last_year_percent": 81,
+      "percent": 80.5,
+      "volume_mm3": 11.88,
+      "last_year_percent": null,
       "average_percent": null,
-      "as_of": "2026-11-18"
+      "as_of": "2026-11-20"
     },
     {
       "id": "la-ferme",
@@ -71,11 +72,11 @@
       "notes": "At Bambous, built 1914–1918. Fed by the Trianon–Grosses Roches and La Fenêtre feeder canals. Used for irrigation, so its level is usually the lowest of the seven.",
       "source": "https://publicutilities.govmu.org/Pages/Water%20Sector/WRU.aspx",
       "osm": "https://www.openstreetmap.org/way/158605915",
-      "percent": 29,
-      "volume_mm3": 3.34,
-      "last_year_percent": 54.9,
-      "average_percent": 11.5,
-      "as_of": "2026-11-18"
+      "percent": 28.6,
+      "volume_mm3": 3.29,
+      "last_year_percent": null,
+      "average_percent": null,
+      "as_of": "2026-11-20"
     },
     {
       "id": "mare-longue",
@@ -107,11 +108,11 @@
       "notes": "Built across Rivière du Rempart near Grande Rosalie. Main source for the northern districts and part of Port Louis; topped up from Midlands Dam through the La Nicolière Feeder Canal.",
       "source": "https://publicutilities.govmu.org/Pages/Water%20Sector/WRU.aspx",
       "osm": "https://www.openstreetmap.org/way/22907630",
-      "percent": 43.7,
-      "volume_mm3": 2.3,
+      "percent": 49.2,
+      "volume_mm3": 2.59,
       "last_year_percent": null,
       "average_percent": null,
-      "as_of": "2026-11-05"
+      "as_of": "2026-11-20"
     },
     {
       "id": "piton-du-milieu",
@@ -134,17 +135,11 @@
   ],
   "sources": [
     {
-      "name": "Defimedia",
-      "url": "https://defimedia.info/crise-de-leau-douze-nouveaux-systemes-de-filtration-attendus-dici-fin-decembre",
-      "published": "2026-11-21",
-      "date_basis": "published",
-      "total_percent": 46.3
-    },
-    {
       "name": "Le Mauricien",
-      "url": "https://www.lemauricien.com/actualites/societe/tamarind-falls-20-000-m%c2%b3-deau-supplementaires-par-jour-bientot-mobilises/723733/",
-      "published": "2026-11-21",
-      "date_basis": "published"
+      "url": "https://www.lemauricien.com/actualites/societe/rehabilitation-et-maintenance-de-la-tour-de-prise-deau-de-mare-aux-vacoas-une-decennie-de-negligence-et-dapathie/723866/",
+      "published": "2026-11-23",
+      "date_basis": "published",
+      "total_percent": 46.1
     }
   ],
   "verified": false

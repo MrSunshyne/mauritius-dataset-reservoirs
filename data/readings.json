@@ -6302,6 +6302,57 @@
     "verified": false
   },
   {
+    "date": "2026-11-20",
+    "date_basis": "stated",
+    "total": {
+      "percent": 46,
+      "volume_mm3": 42.41
+    },
+    "reservoirs": {
+      "mare-aux-vacoas": {
+        "percent": 31.9,
+        "volume_mm3": 8.25
+      },
+      "bagatelle": {
+        "percent": 80.5
+      },
+      "la-ferme": {
+        "percent": 28.6
+      },
+      "la-nicoliere": {
+        "percent": 49.2
+      }
+    },
+    "last_year": {
+      "total": {
+        "percent": 71.8
+      },
+      "reservoirs": {
+        "mare-aux-vacoas": {
+          "percent": 71.3,
+          "volume_mm3": 18.45
+        }
+      }
+    },
+    "sources": [
+      {
+        "name": "Defimedia",
+        "url": "https://defimedia.info/au-20-novembre-2026-mare-aux-vacoas-un-taux-de-remplissage-de-319-contre-713-la-meme-date-lan",
+        "published": "2026-11-23",
+        "date_basis": "stated",
+        "total_percent": 46
+      }
+    ],
+    "check": {
+      "reservoirs_reported": 4,
+      "computed_total_percent": null,
+      "reported_total_percent": 46,
+      "diff": null,
+      "sources_agree": null
+    },
+    "verified": false
+  },
+  {
     "date": "2026-11-21",
     "date_basis": "published",
     "total": {
@@ -6331,6 +6382,47 @@
       "reservoirs_reported": 1,
       "computed_total_percent": null,
       "reported_total_percent": 46.3,
+      "diff": null,
+      "sources_agree": null
+    },
+    "verified": false
+  },
+  {
+    "date": "2026-11-23",
+    "date_basis": "published",
+    "total": {
+      "percent": 46.1,
+      "volume_mm3": 42.96
+    },
+    "reservoirs": {
+      "mare-aux-vacoas": {
+        "percent": 31.9
+      }
+    },
+    "last_year": {
+      "total": {
+        "percent": 72.5,
+        "volume_mm3": 66.85
+      },
+      "reservoirs": {
+        "mare-aux-vacoas": {
+          "percent": 72
+        }
+      }
+    },
+    "sources": [
+      {
+        "name": "Le Mauricien",
+        "url": "https://www.lemauricien.com/actualites/societe/rehabilitation-et-maintenance-de-la-tour-de-prise-deau-de-mare-aux-vacoas-une-decennie-de-negligence-et-dapathie/723866/",
+        "published": "2026-11-23",
+        "date_basis": "published",
+        "total_percent": 46.1
+      }
+    ],
+    "check": {
+      "reservoirs_reported": 1,
+      "computed_total_percent": null,
+      "reported_total_percent": 46.1,
       "diff": null,
       "sources_agree": null
     },
