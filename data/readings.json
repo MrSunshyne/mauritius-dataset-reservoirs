@@ -6427,5 +6427,30 @@
       "sources_agree": null
     },
     "verified": false
+  },
+  {
+    "date": "2026-11-26",
+    "date_basis": "stated",
+    "reservoirs": {
+      "mare-aux-vacoas": {
+        "percent": 32
+      }
+    },
+    "sources": [
+      {
+        "name": "Defimedia",
+        "url": "https://defimedia.info/au-coeur-de-linfo-crise-de-leau-reservoirs-reseau-dessalement-par-ou-commencer",
+        "published": "2026-11-26",
+        "date_basis": "stated"
+      }
+    ],
+    "check": {
+      "reservoirs_reported": 1,
+      "computed_total_percent": null,
+      "reported_total_percent": null,
+      "diff": null,
+      "sources_agree": null
+    },
+    "verified": false
   }
 ]
