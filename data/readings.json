@@ -6452,5 +6452,30 @@
       "sources_agree": null
     },
     "verified": false
+  },
+  {
+    "date": "2026-11-27",
+    "date_basis": "stated",
+    "reservoirs": {
+      "mare-aux-vacoas": {
+        "percent": 54
+      }
+    },
+    "sources": [
+      {
+        "name": "Defimedia",
+        "url": "https://defimedia.info/crise-de-leau-le-repit-depend-des-pluies-de-decembre",
+        "published": "2026-11-27",
+        "date_basis": "stated"
+      }
+    ],
+    "check": {
+      "reservoirs_reported": 1,
+      "computed_total_percent": null,
+      "reported_total_percent": null,
+      "diff": null,
+      "sources_agree": null
+    },
+    "verified": false
   }
 ]
