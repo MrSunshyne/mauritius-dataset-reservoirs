@@ -6431,9 +6431,25 @@
   {
     "date": "2026-11-26",
     "date_basis": "stated",
+    "total": {
+      "percent": 44,
+      "volume_mm3": 40.61
+    },
     "reservoirs": {
       "mare-aux-vacoas": {
         "percent": 32
+      }
+    },
+    "last_year": {
+      "total": {
+        "percent": 69.7,
+        "volume_mm3": 64.28
+      }
+    },
+    "average": {
+      "total": {
+        "percent": 55.2,
+        "volume_mm3": 50.91
       }
     },
     "sources": [
@@ -6442,12 +6458,19 @@
         "url": "https://defimedia.info/au-coeur-de-linfo-crise-de-leau-reservoirs-reseau-dessalement-par-ou-commencer",
         "published": "2026-11-26",
         "date_basis": "stated"
+      },
+      {
+        "name": "ION News",
+        "url": "https://ionnews.mu/ressources-en-eau-les-reservoirs-reculent-a-44-au-26-novembre-2026/",
+        "published": "2026-11-27",
+        "date_basis": "stated",
+        "total_percent": 44
       }
     ],
     "check": {
       "reservoirs_reported": 1,
       "computed_total_percent": null,
-      "reported_total_percent": null,
+      "reported_total_percent": 44,
       "diff": null,
       "sources_agree": null
     },
